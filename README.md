@@ -3,8 +3,30 @@
 ---
 
 # [🢂 CLICK HERE TO SEE NEWEST RELEASE! 🢀](https://github.com/Technetium1/VideoSpider/releases/latest)
-* Only successfully tested with Windows 8.1+
-* Requires **FREE** Developer Account keys from the [VideoSpider.in Account Control Panel](https://videospider.in/account.php) in `VideoSpiderKeys.ini`
+## 1. Requires ***FREE*** Developer Account keys from the [VideoSpider.in Account Control Panel](https://videospider.in/account.php)
+  * Create your developer keys: https://videospider.in/account.php
+  * Both of the keys from the top of the page go in `VideoSpiderKeys.ini`
+## 2. Open VideoSpider
+## 3. Get the ID from the site you want to search from, for example the movie ID is shown between asterisks here:
+  * `TMDB ID: https://www.themoviedb.org/movie/**278**-the-shawshank-redemption`
+  * `IMDB ID: https://www.imdb.com/title/**tt0111161**/`
+
+---
+
+# FAQs
+
+* What is the season ID for?
+  * You will probably never need to use this, so just don't enter one.
+* Should I use an adblocker?
+  * Yes!
+* Do I need Python installed to run this program?
+  * No! You can download the latest exe from the [Releases page](https://github.com/Technetium1/VideoSpider/releases/latest).
+* My video isn't loading, or pauses a lot, why?
+  * Click the icon in the upper right to change sources, and/or scan for more. Not all sources are created equally.
+* Can I download movies with this?
+  * Sometimes players will have a download button in the bottom bar, switch sources until you see it.
+* Where are the videos coming from?
+  * "VideoSpider crawls various websites and search engines to find movie and TV episode streaming links which are then stored into our database and served to you through our API service."  
 
 ---
 
