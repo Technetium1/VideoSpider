@@ -108,7 +108,7 @@ def prompt(y: str, n: str) -> str:
 if __name__ == "__main__":
     method = prompt("IMDB", "TMDB")
     seasonornah = input("Season ID (optional): ").strip()
-    episodeid = input("Episode ID: ").strip()
+    episodeid = input("ID from URL you want to search: ").strip()
     if len(seasonornah) > 0:
         nympho = Nympho(sid=seasonornah, vid=episodeid)
     else:
