@@ -2,7 +2,7 @@
 
 ---
 
-# [🢂 CLICK HERE TO GET STARTED NOW! 🢀](https://github.com/Technetium1/VideoSpider/releases/latest)
+# [🢂 CLICK HERE TO SEE NEWEST RELEASE! 🢀](https://github.com/Technetium1/VideoSpider/releases/latest)
 * Only successfully tested with Windows 8.1+
 
 ---
