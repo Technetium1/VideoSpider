@@ -15,10 +15,10 @@
 
 # FAQs
 
+* Should I use an adblocker?
+  * Yes! uBlock Origin is recommended. Install for [Chrome](https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm) or [Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/), then use these: [Settings](https://user-images.githubusercontent.com/9877150/67312187-e7265480-f4ce-11e9-97f2-63578d4679a1.png) + [Block Lists](https://user-images.githubusercontent.com/9877150/67312232-fb6a5180-f4ce-11e9-8d75-8d4d9209524d.png)
 * What is the season ID for?
   * You will probably never need to use this, so just don't enter one.
-* Should I use an adblocker?
-  * Yes!
 * Do I need Python installed to run this program?
   * No! You can download the latest exe from the [Releases page](https://github.com/Technetium1/VideoSpider/releases/latest).
 * My video isn't loading, or pauses a lot, why?
