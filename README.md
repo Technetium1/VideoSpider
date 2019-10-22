@@ -4,6 +4,7 @@
 
 # [🢂 CLICK HERE TO SEE NEWEST RELEASE! 🢀](https://github.com/Technetium1/VideoSpider/releases/latest)
 * Only successfully tested with Windows 8.1+
+* Requires **FREE** Developer Account keys from the [VideoSpider.in Account Control Panel](https://videospider.in/account.php) in `VideoSpiderKeys.ini`
 
 ---
 
