@@ -26,7 +26,7 @@
 * Can I download movies with this?
   * Sometimes players will have a download button in the bottom bar, switch sources until you see it.
 * Where are the videos coming from?
-  * "VideoSpider crawls various websites and search engines to find movie and TV episode streaming links which are then stored into our database and served to you through our API service."  
+  * "[VideoSpider](https://videospider.in) crawls various websites and search engines to find movie and TV episode streaming links which are then stored into our database and served to you through our API service."  
 
 ---
 
