@@ -5,12 +5,14 @@ import sys
 import urllib3
 import webbrowser
 from os import system
+from os import name
 from dataclasses import dataclass
 
-version = "1.0"
+version = "1.1"
 
-# Set title
-system("title Tech's VS Tool " + version)
+# Set title if on Windows
+if name == 'nt':
+    system("title Tech's VS Tool " + version)
 
 # Read VideoSpiderKeys.ini
 config = configparser.ConfigParser()
@@ -59,7 +61,7 @@ def mkreq(url: str) -> str:  # not sure what type, maybe str
     req = http.request("GET", url)
     if req.status != 200:
         print(
-            "Couldn't make the request for\n{}\n got {} in mkreq()".format(
+            "Could not make the request for\n{}\n got {} in mkreq()".format(
                 url, req.status
             )
         )
