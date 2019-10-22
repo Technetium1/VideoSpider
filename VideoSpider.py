@@ -1,10 +1,11 @@
 # https://github.com/Technetium1
 import configparser
+import certifi
 import sys
 import urllib3
 import webbrowser
-from dataclasses import dataclass
 from os import system
+from dataclasses import dataclass
 
 version = "1.0"
 
@@ -14,7 +15,7 @@ system("title Tech's VS Tool " + version)
 # Read VideoSpiderKeys.ini
 config = configparser.ConfigParser()
 config.read("VideoSpiderKeys.ini")
-http = urllib3.PoolManager()
+http = urllib3.PoolManager(cert_reqs="CERT_REQUIRED", ca_certs=certifi.where())
 
 
 @dataclass
@@ -22,19 +23,17 @@ class Nympho:
     api: str = config["SECRETS"]["API_KEY"]
     secret: str = config["SECRETS"]["SECRET_KEY"]
     ip: str = None
-    # video id
     vid: str = None
     ticket: str = None
-    # season id
     sid: int = 0
 
     def __post_init__(self):
         if len(self.api) > 0 or len(self.secret) > 0:
             pass
         else:
-            print("api or secret key not found")
+            print("API or SECRET_KEY not found!")
             sys.exit()
-        _ = http.request("GET", "https://ip4.seeip.org")
+        _ = http.request("GET", "https://icanhazip.com")
         if _.status != 200:
             sys.exit()
         else:
@@ -42,7 +41,6 @@ class Nympho:
 
 
 def openbrowser(is_imdb=False, infos=None):
-    print("Opening browser...")
     baseurl = "https://videospider.stream/getvideo?key={api}&video_id={vid}&ticket={ticket}".format(
         api=infos.api, vid=infos.vid, ticket=infos.ticket
     )
@@ -96,7 +94,7 @@ def is_sane(a: str):
 
 
 def prompt(y: str, n: str) -> str:
-    method = input(f"{y}? Y/N (else {n})\n")
+    method = input(f"{y}? ENTER Y/N (N= {n}):\n")
     if is_sane(method) is True:
         return y
     elif is_sane(method) is False:
@@ -108,7 +106,7 @@ def prompt(y: str, n: str) -> str:
 if __name__ == "__main__":
     method = prompt("IMDB", "TMDB")
     seasonornah = input("Season ID (optional): ").strip()
-    episodeid = input("ID from URL you want to search: ").strip()
+    episodeid = input("ID from Movie DB to search: ").strip()
     if len(seasonornah) > 0:
         nympho = Nympho(sid=seasonornah, vid=episodeid)
     else:

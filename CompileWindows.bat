@@ -3,7 +3,7 @@ TITLE VideoSpider Compiler
 python -V > NUL 2> NUL
 IF errorlevel 1 ECHO PYTHON NOT IN PATH! && PAUSE && EXIT
 CD %~dp0
-python -m pip install -U pyinstaller urllib3
+python -m pip install -U pyinstaller urllib3 certifi
 pyinstaller -F -i web.ico --clean VideoSpider.py
 MOVE /Y %~dp0dist\VideoSpider.exe %~dp0
 RMDIR /S /Q build __pycache__ dist
