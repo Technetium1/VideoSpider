@@ -7,6 +7,9 @@
   * Create your developer keys: https://videospider.in/account.php
   * Both of the keys from the top of the page go in `VideoSpiderKeys.ini`
 ## 2. Open VideoSpider
+  * `VideoSpider.exe` for Windows
+  * `VideoSpider` for Linux
+  * **NOTE:** `VideoSpiderKeys.ini` ***must*** be in the same folder as VideoSpider
 ## 3. Get the ID from the site you want to search from, for example the ID is shown between asterisks:
   * `TMDB ID: https://www.themoviedb.org/movie/**278**-the-shawshank-redemption`
   * `IMDB ID: https://www.imdb.com/title/**tt0111161**/`
