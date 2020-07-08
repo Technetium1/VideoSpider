@@ -21,7 +21,7 @@
 # FAQs
 
 * Should I use an adblocker?
-  * Yes! uBlock Origin is recommended. Install for [Chrome](https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm) or [Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/), then use these: [Settings](https://user-images.githubusercontent.com/9877150/67312187-e7265480-f4ce-11e9-97f2-63578d4679a1.png) + [Block Lists](https://user-images.githubusercontent.com/9877150/67312232-fb6a5180-f4ce-11e9-8d75-8d4d9209524d.png)
+  * Yes! uBlock Origin is recommended. Install for [Chrome](https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm) or [Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/), then use these: [Settings](https://user-images.githubusercontent.com/9877150/67312187-e7265480-f4ce-11e9-97f2-63578d4679a1.png) + [Block Lists](https://user-images.githubusercontent.com/9877150/86871904-27ebeb00-c0a9-11ea-843b-af030756311b.png)
 * What is the season ID for?
   * You will probably never need to use this, except for the occasional TV series, so just don't enter one unless needed.
 * Do I need Python installed to run this program?
