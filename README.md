@@ -1,5 +1,5 @@
 # Tech's VideoSpider Tool
-[![HitCount](http://hits.dwyl.com/Technetium1/VideoSpider.svg)](http://hits.dwyl.com/Technetium1/VideoSpider}) 
+[![HitCount](https://hits.dwyl.com/Technetium1/VideoSpider.svg)](https://hits.dwyl.com/Technetium1/VideoSpider}) 
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/Technetium1/VideoSpider.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Technetium1/VideoSpider/context:python) [![Total alerts](https://img.shields.io/lgtm/alerts/g/Technetium1/VideoSpider.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Technetium1/VideoSpider/alerts/) ![Discord](https://discordapp.com/api/guilds/260151582337794058/widget.png)
 
 ---
