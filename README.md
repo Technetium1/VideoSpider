@@ -39,7 +39,7 @@
 ---
 
 # Need help? Join the Discord!
-[<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="350" height="198" alt="Discord Invite" title="Join Discord">](https://discord.gg/abnQKUJtcg)
+[![Discord](https://discordapp.com/api/guilds/260151582337794058/widget.png?style=banner3)](https://discord.com/widget?id=260151582337794058&theme=dark)
 
 ---
 
