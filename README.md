@@ -4,6 +4,12 @@
 
 ---
 
+# ⚠️ VIDEOSPIDER.IN HAS CEASED OPERATIONS! ⚠️
+### https://www.alliance4creativity.com has purchased https://openload.co, the end is here for many more services that relied on this platform.
+### If there is an alternative that somehow manages to stay online, I may release another tool.
+
+---
+
 # [🢂 CLICK HERE TO SEE NEWEST RELEASE! 🢀](https://github.com/Technetium1/VideoSpider/releases/latest)
 ## 1. Requires ***FREE*** Developer Account keys from the [VideoSpider.in Account Control Panel](https://videospider.in/account.php)
   * Create your ***Developer*** keys: https://videospider.in/account.php
